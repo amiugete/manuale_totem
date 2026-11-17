@@ -6,7 +6,7 @@
 BACKOFFICE TOTEM
 =====================================================================
 
-Il presente manuale illustra le principali funzionalità disponibili
+Il presente manuale illustra le principali funzionalità disponibili sul BACKOFFICE dei Totem per la consuntivazione. 
 
 
 Contenuti:

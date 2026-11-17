@@ -8,6 +8,8 @@
 
 # -- Path setup --------------------------------------------------------------
 
+import datetime
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -15,12 +17,11 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import datetime
-
+from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
 
-project = u'Manuale - Gestione Bidoni Id&a' ######## DA MODIFICARE ########
+project = u'Manuale - Gestione Bidoni Id&a'  # DA MODIFICARE ########
 now = datetime.datetime.now()
 copyright = u'{}, Amiu SPA'.format(now.year)
 author = u'Amiu Spa'
@@ -56,7 +57,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-#templates_path = ['_templates']
+# templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -88,9 +89,9 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
-#standard readthedocs
+# standard readthedocs
 html_theme = "sphinx_rtd_theme"
 
 html_title = ""
@@ -98,40 +99,35 @@ html_title = ""
 html_logo = 'img/logo_amiu.jpg'
 
 
-
-#import guzzle_sphinx_theme
-#extensions.append("guzzle_sphinx_theme")
-#html_theme_path = guzzle_sphinx_theme.html_theme_path()
-#html_theme = 'guzzle_sphinx_theme'
+# import guzzle_sphinx_theme
+# extensions.append("guzzle_sphinx_theme")
+# html_theme_path = guzzle_sphinx_theme.html_theme_path()
+# html_theme = 'guzzle_sphinx_theme'
 
 # Guzzle theme options (see theme.conf for more information)
 
 
-
-
 # html_theme_options = {
-    # 'canonical_url': '',
-    # #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
-    # 'logo_only': False,
-	# #'html_logo': img/4ISTITUZIONALI.png,
-    # 'display_version': True,
-    # 'prev_next_buttons_location': 'bottom',
-    # 'style_external_links': False,
-    # 'vcs_pageview_mode': '',
-    # #'html_scaled_image_link': True,
-    # # Toc options
-    # 'collapse_navigation': True,
-    # 'sticky_navigation': True,
-    # 'navigation_depth': 4,
-    # 'includehidden': True,
-    # 'titles_only': False
+# 'canonical_url': '',
+# #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+# 'logo_only': False,
+# #'html_logo': img/4ISTITUZIONALI.png,
+# 'display_version': True,
+# 'prev_next_buttons_location': 'bottom',
+# 'style_external_links': False,
+# 'vcs_pageview_mode': '',
+# #'html_scaled_image_link': True,
+# # Toc options
+# 'collapse_navigation': True,
+# 'sticky_navigation': True,
+# 'navigation_depth': 4,
+# 'includehidden': True,
+# 'titles_only': False
 # }
 
 
-
-
 html_context = {
-        'theme_logo_only': True,
+    'theme_logo_only': True,
 }
 
 html_style = 'css/custom.css'
@@ -168,17 +164,15 @@ html_show_copyright = True
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'manuale_gestione_bidoni_idea' ######## DA MODIFICARE########
+htmlhelp_basename = 'manuale_backoffice_totem'  # DA MODIFICARE########
 
 
-from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.supported_image_types = [
     'image/svg+xml',
     'image/gif',
     'image/png',
     'image/jpeg'
 ]
-
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -215,7 +209,7 @@ StandaloneHTMLBuilder.supported_image_types = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'manuale_gestione_bidoni_idea', u'Manuale - Gestione Bidoni Id&a', ######## DA MODIFICARE########
+    (master_doc, 'manuale_backoffice_totem', u'Manuale - Backoffice Totem',  # DA MODIFICARE########
      [author], 1)
 ]
 
@@ -226,8 +220,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'manuale_gestione_bidoni_idea', u'Manuale - Gestione Bidoni Id&a', ######## DA MODIFICARE########
-     author, 'manuale_gestione_bidoni_idea', 'One line description of project.', ######## DA MODIFICARE########
+    (master_doc, 'manuale_backoffice_totem', u'Manuale - Backoffice Torem',  # DA MODIFICARE########
+     # DA MODIFICARE########
+     author, 'manuale_backoffice_totem', 'One line description of project.',
      'Miscellaneous'),
 ]
 

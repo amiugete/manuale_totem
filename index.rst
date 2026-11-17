@@ -5,14 +5,17 @@
 
 BACKOFFICE TOTEM
 =====================================================================
+
+Il presente manuale illustra le principali funzionalità disponibili
+
+
 Contenuti:
 
 ..
    the items listed under the toctree element must be the same of the .rst file name
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Manuale
+   
    accesso
    consuntivazione_raccolta
    consuntivazione_igiene

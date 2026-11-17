@@ -11,10 +11,12 @@ Contenuti:
    the items listed under the toctree element must be the same of the .rst file name
 
 .. toctree::
-  accesso
-  consuntivazione_raccolta
-  consuntivazione_igiene
-  report
+   :maxdepth: 2
+   :caption: Manuale
+   accesso
+   consuntivazione_raccolta
+   consuntivazione_igiene
+   report
   
 
 

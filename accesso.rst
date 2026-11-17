@@ -18,8 +18,7 @@ Per gli utenti interni è anche possibile accedere direttamente dal SIT:
 Per la sicurezza, è consigliabile uscire dal sistema al termine dell'uso e
 non condividere le credenziali con altri utenti.
 
-Ogni utente è associato ad alcune Unità Territoriali secondo quanto configurato sul SIT. 
-Per modificare le impostazioni è necessario che il proprio referente contatti i colleghi di  *assterrritorio*
+.. note:: Ogni utente è associato ad alcune Unità Territoriali secondo quanto configurato sul SIT. Per modificare le impostazioni è necessario che il proprio referente contatti i colleghi di  *assterrritorio*
 
 
 Una volta entrati si visualizza la pagina principale. 

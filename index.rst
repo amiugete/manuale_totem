@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-GESTIONE BIDONI ID&A
+BACKOFFICE TOTEM
 =====================================================================
 Contenuti:
 
@@ -12,7 +12,9 @@ Contenuti:
 
 .. toctree::
 
-  istruzioni
+  consuntivazione_raccolta
+  consuntivazione_igiene
+  report
   
 
 

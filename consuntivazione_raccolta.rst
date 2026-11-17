@@ -6,7 +6,7 @@ Se l'utente avesse accesso ad una sola UT e/o Rimessa visualizzerebbe direttamen
 
 In caso contrario come prima opzione è necessario selezionare l'UT 
 
-.. image:: img/cons_racccolta/scelta_ut.png
+.. image:: img/cons_raccolta/scelta_ut.png
     :align: center
 
 
@@ -18,7 +18,7 @@ In alto è possibile:
 - modificare il giorno (fino ad un massimo di 7 giorni indietro)
 - selezionare una causale con cui eseguire automaticamente i percorsi come non effettuati cliccando, se abilitati, sull'apposito tasto presente a fianco del percorso
 
-.. image:: img/cons_racccolta/percorsi_raccolta_albaro.png
+.. image:: img/cons_raccolta/percorsi_raccolta_albaro.png
     :align: center
 
 In prima battuta vengono visualizzati i percorsi previsti per quel giorno. Successivamente quelli non previsti. Nel campo *stato*, per ogni percorso *previsto* compare un pallino che può assumere 4 colori: 

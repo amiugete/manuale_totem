@@ -13,7 +13,6 @@ Per queli esterni si tratta delle credenziali fornite da AMIU.
 Per gli utenti interni è anche possibile accedere direttamente dal SIT: 
 
 - Collegamenti
-
    - Nuova dashboard totem
 
 Per la sicurezza, è consigliabile uscire dal sistema al termine dell'uso e
@@ -38,8 +37,7 @@ Nel menù in alto compaiono 2 voci principali e le impostazioni dell'utente
 - **report** da cui si può accedere a 2 report: 
    - *Associazione ai servizi*
    - *Carburante*
-- utente con cui si è effettuato il login: cliccandoci sopra è possibile visualizzare le UT o Rimesse a cui è associrato l'utente ed effettuare il logout dall'applicativo
-
+- utene con cui si è effettuato il login: cliccandoci sopra è possibile visualizzare le UT o Rimesse a cui è associrato l'utente ed effettuare il logout dall'applicativo
 
 Bottoni principali
 ------------------------------------------------------------

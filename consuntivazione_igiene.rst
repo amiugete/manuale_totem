@@ -5,7 +5,7 @@ Se l'utente avesse accesso ad una sola UT e/o Rimessa visualizzerebbe direttamen
 
 In caso contrario come prima opzione è necessario selezionare l'UT 
 
-.. image:: img/cons_racccolta/scelta_ut.png
+.. image:: img/cons_raccolta/scelta_ut.png
     :align: center
 
 

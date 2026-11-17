@@ -12,6 +12,7 @@ Contenuti:
 
 .. toctree::
 
+  accesso
   consuntivazione_raccolta
   consuntivazione_igiene
   report
